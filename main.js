@@ -57,26 +57,3 @@
     });
   }
 })();
-    }
-    btn.addEventListener('click', toggle);
-    // Enter / Space for elements that aren't native buttons
-    if(btn.tagName !== 'BUTTON'){
-      btn.addEventListener('keydown', function(e){
-        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggle(); }
-      });
-    }
-  });
-
-  // contact form (front-end only — connect to a form service to receive messages)
-  var form = document.getElementById('contactForm');
-  if(form){
-    form.addEventListener('submit', function(e){
-      e.preventDefault();
-      var note = document.getElementById('formNote');
-      if(!form.checkValidity()){ note.style.color='var(--mustard-deep)'; note.textContent='Please add your name, a valid email and a short message.'; return; }
-      note.style.color = 'var(--mustard-deep)';
-      note.textContent = 'Thank you — this is a demo form. Connect it to email or a form service to receive enquiries.';
-      form.reset();
-    });
-  }
-})();
