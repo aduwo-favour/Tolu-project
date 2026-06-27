@@ -23,7 +23,7 @@
       <a href="portfolio.html">Portfolio</a>
       <a href="pricing.html">Pricing</a>
       <a href="faqs.html">FAQs</a>
-      <a class="btn btn-primary" href="contact.html">Book a consultation</a>
+      <a class="btn btn-primary" href="contact.html"><svg class="cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><line x1="3" y1="9.5" x2="21" y2="9.5"/><line x1="8" y1="3" x2="8" y2="6"/><line x1="16" y1="3" x2="16" y2="6"/></svg> Book a consultation</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span></button>
   </div>
@@ -33,111 +33,120 @@
   </div>
 </header>
 
-<!-- HERO (unchanged — copy to be provided later) -->
+<!-- HERO -->
 <section class="hero container">
   <div class="hero-grid">
     <div>
-      <span class="eyebrow">Research · Strategy · Documentation</span>
-      <h1>Turning ideas into <em>structured opportunities.</em></h1>
-      <p class="lead">Le'Efa is a boutique consultancy. We help entrepreneurs, organisations and institutions think clearly, plan deliberately and document professionally — so good ideas become decisions, proposals and results.</p>
+      <span class="eyebrow">Boutique consultancy</span>
+      <h1>Good ideas deserve better than <em>guesswork.</em></h1>
+      <p class="lead">We help entrepreneurs, organisations, researchers and professionals think clearly, plan strategically and communicate with confidence.</p>
       <div class="btn-row">
-        <a class="btn btn-primary" href="contact.html">Book a consultation <span class="ar">→</span></a>
-        <a class="btn btn-outline" href="services.html">Explore services</a>
+        <a class="btn btn-primary" href="contact.html">Start your project <span class="ar">→</span></a>
+        <a class="btn btn-outline" href="portfolio.html">See our work <span class="ar">→</span></a>
       </div>
-      <div class="served">
-        <span>Entrepreneurs</span><span>Organisations</span><span>Researchers</span><span>Professionals</span>
+
+      <div class="trusted">
+        <div class="tlabel">Trusted by entrepreneurs, researchers &amp; professionals</div>
+        <div class="trusted-logos">
+          <span class="tlogo"><span class="sq"></span>StartUp <span class="sans">Foundation</span></span>
+          <span class="tlogo">She<span style="color:var(--gold)">.</span>Leads</span>
+          <span class="tlogo"><span class="dot"></span>GreenGrid <span class="sans">Energy</span></span>
+          <span class="tlogo">EduBridge <span class="sans">Scholarships</span></span>
+          <span class="tlogo"><span class="sans" style="letter-spacing:.12em">NEXUS</span> Consulting</span>
+          <span class="tlogo"><span class="dot"></span>HealthConnect</span>
+        </div>
+        <span class="ph-note" style="margin-top:14px">Placeholder client names — replace with real logos</span>
       </div>
     </div>
-    <div class="figure" aria-hidden="true">
-      <div class="doc-stack">
-        <div class="doc back"></div>
-        <div class="doc mid"></div>
-        <div class="doc front">
-          <span class="tab"></span>
-          <div class="h-bar"></div><div class="h-sub"></div>
-          <div class="ln" style="width:100%"></div>
-          <div class="ln" style="width:92%"></div>
-          <div class="ln" style="width:97%"></div>
-          <div class="ln" style="width:78%"></div>
-          <div class="ln" style="width:88%"></div>
-          <div class="seal"><span class="ring">L</span> Prepared by Le'Efa</div>
+
+    <div class="figure">
+      <div class="hero-photo">
+        <img src="https://images.unsplash.com/photo-1723465554904-c5d497ac0d6a?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"
+             alt="A calm, considered workspace — notebook, pen and a potted plant on a wooden desk"
+             onerror="this.closest('.hero-photo').classList.add('noimg'); this.remove();">
+        <div class="doc-fallback">
+          <div class="doc-stack">
+            <div class="doc back"></div>
+            <div class="doc mid"></div>
+            <div class="doc front">
+              <span class="tab"></span>
+              <div class="h-bar"></div><div class="h-sub"></div>
+              <div class="ln" style="width:100%"></div>
+              <div class="ln" style="width:92%"></div>
+              <div class="ln" style="width:97%"></div>
+              <div class="ln" style="width:78%"></div>
+              <div class="seal"><span class="ring">L</span> Prepared by Le'Efa</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHO WE HELP — teaser cards, each links onward -->
+<!-- WHO WE HELP -->
 <section class="section alt">
-  <div class="container help-grid">
-    <div class="rv">
-      <span class="eyebrow">Who we help</span>
-      <h2 style="font-size:clamp(1.9rem,4vw,2.7rem);margin-top:16px">People with a serious idea and no room for a weak draft.</h2>
-      <p class="lead" style="margin-top:18px">A short, curiosity-driving intro goes here. (Placeholder — copy to be provided.)</p>
-    </div>
-    <div class="help-list rv">
-      <div>
-        <h4>Entrepreneurs</h4>
-        <p>We help turn business ideas into investor-ready plans.</p>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+  <div class="container">
+    <div class="head rv center"><span class="eyebrow">Who we help</span><h2>Where are you right now?</h2></div>
+    <div class="pillars">
+      <div class="pillar rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 1 3.5 10.9c-.6.4-.9 1-.9 1.6H9.4c0-.6-.3-1.2-.9-1.6A6 6 0 0 1 12 3Z"/></svg></div>
+        <h3>I have a business idea</h3>
+        <p>You know where you want to go — you just need the smartest way to get there.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
-      <div>
-        <h4>NGOs</h4>
-        <p>Short teaser line goes here. (Placeholder.)</p>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+      <div class="pillar rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m12 3 2.5 5.2 5.5.8-4 3.9.9 5.6L12 16.8 7.1 18.5l.9-5.6-4-3.9 5.5-.8L12 3Z"/></svg></div>
+        <h3>I'm applying for something important</h3>
+        <p>Funding, scholarships, jobs, research — I need my work to stand out.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
-      <div>
-        <h4>Researchers</h4>
-        <p>Short teaser line goes here. (Placeholder.)</p>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
-      </div>
-      <div>
-        <h4>Professionals</h4>
-        <p>Short teaser line goes here. (Placeholder.)</p>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+      <div class="pillar rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h8l4 4v14H6Z"/><path d="M14 3v4h4"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="16.5" x2="15" y2="16.5"/></svg></div>
+        <h3>I'm already working on something</h3>
+        <p>I have notes, research, drafts and ideas. I need them turned into something professional.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FEATURED SERVICES — teasers only, detail lives on the Services page -->
+<!-- FEATURED SERVICES -->
 <section class="section">
   <div class="container">
-    <div class="head rv">
-      <span class="eyebrow">Featured services</span>
-      <h2>Where we can help.</h2>
-      <p>Short intro line goes here. (Placeholder — full detail lives on the Services page.)</p>
-    </div>
+    <div class="head rv center"><span class="eyebrow">What we do</span><h2>Three disciplines, one clear outcome.</h2></div>
     <div class="svc">
       <div class="svc-card rv">
-        <span class="cat">Strategy &amp; Funding</span>
-        <h3>Decide with direction</h3>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div>
+        <h3>Research</h3>
+        <p>We find the right information so you can make confident decisions.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
       <div class="svc-card rv">
-        <span class="cat">Research &amp; Insight</span>
-        <h3>Know before you commit</h3>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8.5"/><path d="M14.5 9.5 11 11l-1.5 3.5 3.5-1.5L14.5 9.5Z"/></svg></div>
+        <h3>Strategy</h3>
+        <p>We turn findings into a clear plan you can actually act on.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
       <div class="svc-card rv">
-        <span class="cat">Professional Documents</span>
-        <h3>Put it on paper, properly</h3>
-        <a style="display:inline-flex;align-items:center;gap:6px;margin-top:14px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep)" href="services.html">Learn more <span class="ar">→</span></a>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h8l4 4v14H6Z"/><path d="M14 3v4h4"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="16.5" x2="15" y2="16.5"/></svg></div>
+        <h3>Documentation</h3>
+        <p>We write and design documents that get results.</p>
+        <a class="card-link" href="services.html">Learn more <span class="ar">→</span></a>
       </div>
     </div>
-    <div class="btn-row rv" style="margin-top:34px"><a class="btn btn-outline" href="services.html">Explore all services <span class="ar">→</span></a></div>
+    <div class="btn-row rv" style="margin-top:36px;justify-content:center"><a class="btn btn-outline" href="services.html">Explore all services <span class="ar">→</span></a></div>
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
+<!-- TESTIMONIAL -->
 <section class="section alt">
   <div class="container">
-    <div class="head rv"><span class="eyebrow">In their words</span><h2>Trusted with work that matters.</h2></div>
-    <span class="ph-note rv">Placeholder testimonials — replace with real client quotes</span>
-    <div class="quotes">
-      <div class="quote rv"><div class="stars">★★★★★</div><p>"They turned a tangle of notes into a proposal our board approved on the first read. The thinking behind it was the difference."</p><cite><b>A. Okafor</b> — Founder, early-stage venture</cite></div>
-      <div class="quote rv"><div class="stars">★★★★★</div><p>"The research was thorough and the document immaculate. It read like it came from a firm three times their size."</p><cite><b>M. Bello</b> — Programme Lead, non-profit</cite></div>
-      <div class="quote rv"><div class="stars">★★★★★</div><p>"Calm, structured and genuinely strategic. I came in with an idea and left with a plan I could defend."</p><cite><b>S. Adeyemi</b> — Postgraduate researcher</cite></div>
+    <span class="ph-note rv" style="display:block;text-align:center;margin-bottom:20px">Placeholder testimonial — replace with a real client quote</span>
+    <div class="tcarousel rv">
+      <div class="stars">★★★★★</div>
+      <blockquote>"They turned a tangle of notes into a proposal our board approved on the first read. The thinking behind it was the difference."</blockquote>
+      <cite><b>A. Okafor</b> — Founder, early-stage venture</cite>
     </div>
   </div>
 </section>
@@ -148,9 +157,9 @@
     <div class="cta-band rv">
       <span class="glow" aria-hidden="true"></span>
       <span class="eyebrow" style="color:var(--gold)">Let's begin</span>
-      <h2 style="margin-top:18px">Let's discuss your idea.</h2>
-      <p>Tell us what you're working on. We'll tell you, honestly, how we'd approach it — and whether we're the right fit before you commit a thing.</p>
-      <div class="btn-row"><a class="btn btn-primary" href="contact.html">Start your project <span class="ar">→</span></a></div>
+      <h2 style="margin-top:18px">Tell us what you're working on.</h2>
+      <p>We'll tell you honestly whether we're the right people for it — before you commit a thing.</p>
+      <div class="btn-row"><a class="btn btn-primary" href="contact.html">Book a consultation <span class="ar">→</span></a></div>
     </div>
   </div>
 </section>
