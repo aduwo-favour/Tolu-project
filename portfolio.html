@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Portfolio — Le'Efa Consulting</title>
-<meta name="description" content="Selected work from Le'Efa Consulting — research, strategy and documentation projects with the challenge, approach and outcome for each." />
+<title>Portfolio — La Jefa Consulting</title>
+<meta name="description" content="Selected work from La Jefa Consulting — research, strategy and documentation projects across industries, with the challenge, approach and outcome for each." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 
 <header>
   <div class="container nav">
-    <a class="brand" href="index.html"><span class="mark"></span>Le'Efa</a>
+    <a class="brand" href="index.html"><span class="mark"></span>La Jefa</a>
     <nav class="nav-links" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -35,113 +35,103 @@
 
 <section class="page-hero">
   <div class="container">
-    <span class="eyebrow">Selected work</span>
-    <h1>Ideas we helped <em>prepare properly.</em></h1>
-    <p>A look at how we work — the challenge a client arrived with, the approach we took, and what it produced. Select a project to read the full case.</p>
-    <p class="ph-note" style="margin-top:18px">Placeholder case studies — replace with real client projects</p>
+    <div class="pf-tophead">
+      <div>
+        <span class="eyebrow">Featured work</span>
+        <h1>Real projects. <em>Real impact.</em></h1>
+        <p>A selection of projects we've worked on with entrepreneurs, organisations, researchers and professionals across different industries.</p>
+      </div>
+      <a class="btn btn-outline" href="contact.html" style="white-space:nowrap">View all projects <span class="ar">→</span></a>
+    </div>
+    <span class="ph-note">Placeholder case studies &amp; images — replace with your real projects</span>
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="padding-top:clamp(36px,5vw,56px)">
   <div class="container">
-    <div class="pf-grid">
 
-      <div class="pf-card open rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="true">
-          <span class="pf-cat">Funding Support</span>
-          <h3>Seed round pitch &amp; data room <span class="chev" aria-hidden="true">+</span></h3>
-        </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>A two-founder startup had strong traction but a pitch that buried it. Investors weren't getting to the point.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We restructured the narrative around the single strongest metric, rebuilt the deck, and prepared a tidy data room of supporting documents.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>Three investor meetings converted to term-sheet conversations within six weeks of the rebuild.</p></div>
-        </div></div></div>
-      </div>
+    <div class="pf-filters" id="pfFilters">
+      <button class="pf-filter active" data-filter="all">All Projects</button>
+      <button class="pf-filter" data-filter="business">Business Strategy</button>
+      <button class="pf-filter" data-filter="funding">Funding &amp; Grants</button>
+      <button class="pf-filter" data-filter="research">Research</button>
+      <button class="pf-filter" data-filter="professional">Professional Documents</button>
+    </div>
 
-      <div class="pf-card rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="false">
-          <span class="pf-cat">Business Strategy</span>
-          <h3>Market-entry plan for a services firm <span class="chev" aria-hidden="true">+</span></h3>
-        </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>An established firm wanted to enter a new city but had no view of demand, competitors or pricing.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We ran a focused market study, then translated the findings into a phased entry plan with clear priorities and risks.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>A board-approved plan and a confident, evidence-backed launch decision.</p></div>
-        </div></div></div>
-      </div>
+    <div class="pf-cards" id="pfCards">
 
-      <div class="pf-card rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="false">
-          <span class="pf-cat">Funding Support</span>
-          <h3>Grant application for an NGO <span class="chev" aria-hidden="true">+</span></h3>
+      <article class="pf2" data-category="business">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1760450424517-76ebec358c3d?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="City skyline with wind turbines at dusk" loading="lazy" onerror="this.closest('.thumb').classList.add('noimg');this.remove();">
         </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>A non-profit had real impact but a proposal that didn't match the funder's framework or language.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We mapped the application to the funder's criteria, sharpened the impact narrative and built a clear budget story.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>A shortlisted application and an invitation to the next assessment stage.</p></div>
-        </div></div></div>
-      </div>
+        <div class="body">
+          <span class="cat">Business Strategy</span>
+          <h3>Renewable Energy Feasibility Study</h3>
+          <p>Market and financial feasibility study for a 20MW solar farm project in Northern Nigeria.</p>
+          <a class="vcs" href="contact.html">View case study <span class="ar">→</span></a>
+        </div>
+      </article>
 
-      <div class="pf-card rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="false">
-          <span class="pf-cat">Research</span>
-          <h3>Feasibility study for a new product <span class="chev" aria-hidden="true">+</span></h3>
+      <article class="pf2" data-category="funding">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1752159684779-0639174cdfac?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Business partners shaking hands over a signed agreement" loading="lazy" onerror="this.closest('.thumb').classList.add('noimg');this.remove();">
         </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>A founder was about to invest heavily in an idea with no objective read on whether it would work.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We tested demand, costs and competition, and presented the findings without spin — including the uncomfortable parts.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>The client pivoted to a stronger variant of the idea before spending on the original.</p></div>
-        </div></div></div>
-      </div>
+        <div class="body">
+          <span class="cat">Funding &amp; Grants</span>
+          <h3>NGO Capacity Building Grant Proposal</h3>
+          <p>Successfully secured a $250,000 grant for a women-empowerment initiative focused on skills training.</p>
+          <a class="vcs" href="contact.html">View case study <span class="ar">→</span></a>
+        </div>
+      </article>
 
-      <div class="pf-card rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="false">
-          <span class="pf-cat">Academic Support</span>
-          <h3>Research proposal &amp; structure <span class="chev" aria-hidden="true">+</span></h3>
+      <article class="pf2" data-category="research">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Performance analytics and graphs on a laptop screen" loading="lazy" onerror="this.closest('.thumb').classList.add('noimg');this.remove();">
         </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>A postgraduate had a promising topic but a proposal that wandered and lacked a clear question.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We helped define a sharp research question, structured the argument and tightened the literature review.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>An approved proposal and a clear roadmap for the work ahead.</p></div>
-        </div></div></div>
-      </div>
+        <div class="body">
+          <span class="cat">Research</span>
+          <h3>Market Research for Fintech Startup</h3>
+          <p>In-depth market analysis and competitor research to guide product positioning and go-to-market strategy.</p>
+          <a class="vcs" href="contact.html">View case study <span class="ar">→</span></a>
+        </div>
+      </article>
 
-      <div class="pf-card rv" data-item>
-        <div class="pf-top" data-toggle role="button" tabindex="0" aria-expanded="false">
-          <span class="pf-cat">Professional Documentation</span>
-          <h3>Capability profile for a consultancy <span class="chev" aria-hidden="true">+</span></h3>
+      <article class="pf2" data-category="professional">
+        <div class="thumb">
+          <img src="https://images.unsplash.com/photo-1506957833838-96c1e88d394f?q=80&amp;w=900&amp;auto=format&amp;fit=crop" alt="Close-up of a fountain pen writing on paper" loading="lazy" onerror="this.closest('.thumb').classList.add('noimg');this.remove();">
         </div>
-        <div class="pf-detail"><div><div class="pf-inner">
-          <div class="pf-block"><h5>Challenge</h5><p>A growing firm was sending out inconsistent, dated documents that undersold their expertise.</p></div>
-          <div class="pf-block"><h5>Approach</h5><p>We produced a single, well-designed capability profile with a consistent structure and confident language.</p></div>
-          <div class="pf-block outcome"><h5>Outcome</h5><p>A reusable document the team now leads with in every new pitch.</p></div>
-        </div></div></div>
-      </div>
+        <div class="body">
+          <span class="cat">Professional Documents</span>
+          <h3>Executive CV &amp; LinkedIn Optimisation</h3>
+          <p>Complete career-branding package that improved profile visibility and led to multiple interview invitations.</p>
+          <a class="vcs" href="contact.html">View case study <span class="ar">→</span></a>
+        </div>
+      </article>
 
     </div>
-  </div>
-</section>
 
-<section class="section alt">
-  <div class="container">
-    <div class="cta-band rv">
-      <span class="glow" aria-hidden="true"></span>
-      <span class="eyebrow" style="color:var(--gold)">Your project next</span>
-      <h2 style="margin-top:18px">Let's add your win to this list.</h2>
-      <p>Bring us the challenge. We'll bring the research, strategy and documentation to meet it.</p>
-      <div class="btn-row"><a class="btn btn-primary" href="contact.html">Start your project <span class="ar">→</span></a></div>
+    <div class="pf-banner rv">
+      <div class="bl">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></div>
+        <div>
+          <h3>Every project is tailored. Every solution is built for impact.</h3>
+          <p>We don't just deliver documents. We help you achieve results.</p>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="contact.html">Start your project <span class="ar">→</span></a>
     </div>
+
   </div>
 </section>
 
 <footer>
   <div class="container">
     <div class="foot-grid">
-      <div class="foot-brand"><a class="brand" href="index.html"><span class="mark"></span>Le'Efa</a><p>A boutique research, strategy and documentation consultancy. We help good ideas become structured opportunities.</p></div>
+      <div class="foot-brand"><a class="brand" href="index.html"><span class="mark"></span>La Jefa</a><p>A boutique research, strategy and documentation consultancy. We help good ideas become structured opportunities.</p></div>
       <div class="foot"><h5>Explore</h5><a href="about.html">About</a><a href="services.html">Services</a><a href="process.html">Process</a><a href="portfolio.html">Portfolio</a><a href="pricing.html">Pricing</a><a href="faqs.html">FAQs</a></div>
-      <div class="foot"><h5>Connect</h5><a href="mailto:hello@leefa.co.uk">hello@leefa.co.uk</a><a href="#" target="_blank" rel="noopener">Instagram</a><a href="#" target="_blank" rel="noopener">LinkedIn</a><a href="contact.html">Book a consultation</a></div>
+      <div class="foot"><h5>Connect</h5><a href="mailto:hello@lajefaconsulting.com">hello@lajefaconsulting.com</a><a href="#" target="_blank" rel="noopener">Instagram</a><a href="#" target="_blank" rel="noopener">LinkedIn</a><a href="contact.html">Book a consultation</a></div>
     </div>
-    <div class="foot-bottom"><span>© <span id="yr"></span> Le'Efa Consulting. All rights reserved.</span><span>Research · Strategy · Documentation</span></div>
+    <div class="foot-bottom"><span>© <span id="yr"></span> La Jefa Consulting. All rights reserved.</span><span>Research · Strategy · Documentation</span></div>
   </div>
 </footer>
 

@@ -44,6 +44,22 @@
     }
   });
 
+  // portfolio filters
+  var pfFilters = document.getElementById('pfFilters');
+  if(pfFilters){
+    var pfcards = document.querySelectorAll('#pfCards .pf2');
+    pfFilters.addEventListener('click', function(e){
+      var btn = e.target.closest('.pf-filter');
+      if(!btn) return;
+      pfFilters.querySelectorAll('.pf-filter').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.getAttribute('data-filter');
+      pfcards.forEach(function(c){
+        c.classList.toggle('hide', f!=='all' && c.getAttribute('data-category')!==f);
+      });
+    });
+  }
+
   // contact form (front-end only — connect to a form service to receive messages)
   var form = document.getElementById('contactForm');
   if(form){
