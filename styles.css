@@ -356,11 +356,11 @@ footer{background:var(--cream-2);border-top:1px solid var(--line);padding:60px 0
 .trusted{margin-top:48px;}
 .trusted .tlabel{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;align-items:center;gap:14px;}
 .trusted .tlabel::after{content:"";flex:1;height:1px;background:var(--line);}
-.trusted-logos{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:22px;}
-.tlogo-tile{height:56px;padding:7px 15px;background:#fff;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s;overflow:hidden;}
+.trusted-logos{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:22px;}
+.tlogo-tile{height:46px;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:inline-flex;align-items:center;background:#fff;transition:transform .2s,box-shadow .2s;}
 .tlogo-tile:hover{transform:translateY(-2px);box-shadow:0 14px 26px -20px rgba(44,33,23,.5);}
-.tlogo-tile img{max-height:100%;max-width:150px;width:auto;object-fit:contain;display:block;}
-.tlogo-tile .txt{font-family:"Fraunces";font-weight:600;color:var(--muted);font-size:.95rem;white-space:nowrap;}
+.tlogo-tile img{height:100%;width:auto;display:block;}
+.tlogo-tile .txt{font-family:"Fraunces";font-weight:600;color:var(--muted);font-size:.9rem;white-space:nowrap;padding:0 14px;}
 
 /* "learn more" card links */
 .card-link{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--mustard-deep);}
